@@ -1,0 +1,20 @@
+{
+  "CONFIG_VERSION": 1,
+  "permissionLevel": 2,
+  "modes": {
+    "Range": {
+      "enabled": true,
+      "range": 3,
+      "_c1": "moveMode can be either Pull or Teleport",
+      "moveMode": "Pull",
+      "pullStrengthMultiplier": 1.0,
+      "skipCanPickUpCheck": false
+    },
+    "OnBreak": {
+      "enabled": true,
+      "_c1": "drop location (for when inventory is full), either Block or Player",
+      "dropLocation": "Block",
+      "includeContainerItems": true
+    }
+  }
+}
